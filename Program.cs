@@ -9,7 +9,8 @@ namespace JURNALMOD3
     {
         static void Main(string [] args)
         {
-
+            KodeBuah.Buah namaBuah = KodeBuah.Buah.Paprika;
+            System.Console.WriteLine(KodeBuah.getKodeBuah(namaBuah));
         }
     }
 
